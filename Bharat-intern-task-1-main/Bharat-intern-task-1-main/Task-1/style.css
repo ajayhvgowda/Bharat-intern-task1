@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#main-nav{
+    background-color:rgb(240, 232, 168);
+}
+section{
+    height: 100vh;
+}
+#home{
+    
+    background-position: right;
+    background-image: url(images/Image-2.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+   
+    
+    }
+.custom-col{
+    margin-top: 25%;
+
+}
+i{
+    color: #000;
+}
+#about{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    filter: grayscale(0);
+}
+.img-hero{
+    height: auto;
+   margin: 150px 40px 30px 700px;
+    
+}
+.spacing{
+    margin-top: 10%;
+    
+}
+.display-4{
+    margin-top: -500px;
+}
+.card-icon{
+    font-size: 3rem;
+}
+#interest{
+    margin-top: 10%;
+    background-image: url('images/background.jpg');
+}
+.block{
+    height: .3rem;
+    width: 6rem;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    opacity: o.5;
+}
+.nav-item{
+    font-size: 30px;
+    font: cursive;
+}
+h5{
+    margin: 30px 100px 40px 100px;
+    align-items: center;
+    padding: 10px 20px 10px 40px;
+}
+#hobbies{
+    background-image: url("images/background.jpg");
+}
+table{
+    margin: 30px;
+    align-items: center;
+}
